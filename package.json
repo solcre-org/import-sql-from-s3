@@ -1,0 +1,23 @@
+{
+  "name": "solcre-lambda-aws-import-sql-files-from-s3",
+  "version": "1.0.0",
+  "description": "Lambda function to import sql files from S3 to a RDS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Solcre Technology Solutions",
+  "license": "MIT",
+  "devDependencies": {
+    "mysql-import": "^3.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solcre-org/import-sql-from-s3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solcre-org/import-sql-from-s3/issues"
+  },
+  "homepage": "https://github.com/solcre-org/import-sql-from-s3#readme"
+}
