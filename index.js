@@ -30,8 +30,8 @@ async function getDataAndImport(sqlName) {
     return false;
 }
 
-function importSQL(file) {
-    importer.importFile(file);
+async function importSQL(file) {
+    await importer.importFile(file);
     return true;
 }
 
